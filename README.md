@@ -18,7 +18,7 @@ To facilitate decision making, the data in a data warehouse are organized around
 data cube, in which each dimension corresponds to an attribute or a set of attributesin the schema, and each cell stores the value of some aggregate measure such as count or sum(sales amount). A data cube provides a multidimensional view of data and allows
 the precomputation and fast access of summarized data.
 
-4.**What kind of patterns can be mined?
+4.**What kind of patterns can be mined?**
 
 There are a number of data mining functionalities. These include characterization
 and discrimination; the mining of frequent patterns, associations, and correlations; classification and regression; clustering analysis; and outlier analysis. Data mining functionalities are used to specify the kinds of patterns to be found in data mining tasks. In general, such
@@ -26,11 +26,24 @@ tasks can be classified into two categories: descriptive and predictive.
 Descriptive mining tasks characterize properties of the data in a target data set.
 Predictive mining tasks perform induction on the current data in order to make predictions.
 
-5.**What is data objects and Attributes type?
+5.**What is data objects and Attributes type?**
 
 Data sets are made up of data objects. A data object represents an entity—in a sales database, the objects may be customers, store items, and sales; in a medical database, the objects may be patients; in a university database, the objects may be students, professors, and courses. 
 Data objects are typically described by attributes. Data objects can also be referred to as samples, examples, instances, data points, or objects. If the data objects arestored in a database,they are data tuples. That is, the rows of a database correspond to the data objects, and the columns correspond to the attributes. 
 
- 6.**What is Attributes?
+ 6.**What is Attributes?**
 
 An attribute is a data field, representing a characteristic or feature of a data object.
+
+7. **Major Three elements define data Quality**
+ 
+ accuracy, completeness, and consistency of Data.
+ 
+8. What types of error define data are inaccurate, in consistent and incompletness?
+ 
+ 1.Users may purposely submit incorrect data values for mandatory fields when they do not wish to submit personal information (e.g., by choosing
+ the default value “January 1” displayed for birthday). This is known as disguised missing data.
+ 2.There may be technology limitations such as limited buffer size for coordinating synchronized data transfer and consumption. Incorrect data may also result from inconsistencies in naming conventions or datacodes, or inconsistent formats for input fields (e.g., date)
+ 
+ 
+
