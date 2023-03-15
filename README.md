@@ -39,11 +39,15 @@ An attribute is a data field, representing a characteristic or feature of a data
  
  accuracy, completeness, and consistency of Data.
  
-8. What types of error define data are inaccurate, in consistent and incompletness?
+8.What types of error define data are inaccurate, in consistent and incompletness?
  
  1.Users may purposely submit incorrect data values for mandatory fields when they do not wish to submit personal information (e.g., by choosing
- the default value “January 1” displayed for birthday). This is known as disguised missing data.
- 2.There may be technology limitations such as limited buffer size for coordinating synchronized data transfer and consumption. Incorrect data may also result from inconsistencies in naming conventions or datacodes, or inconsistent formats for input fields (e.g., date)
+  the default value “January 1” displayed for birthday). This is known as disguised missing data.
+ 
+ 2.There may be technology limitations such as limited buffer size for coordinating synchronized data transfer and consumption. Incorrect data may also       result from inconsistencies in naming conventions or datacodes, or inconsistent formats for input fields (e.g., date)
+ 
+ 3.Relevant data may not be recorded due to a misunderstanding or because ofequipment malfunctions. Data that were inconsistent with other recorded data     mayhave been deleted. Furthermore, the recording of the data history or modifications may have been overlooked. Missing data, particularly for tuples       with missing values for someattributes, may need to be inferred.
+ 
  
  
 
